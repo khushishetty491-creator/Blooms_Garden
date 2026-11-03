@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+    color: #444;
+    text-align: center;
+}
+
+header {
+    background-color: #e8a4b8;
+    padding: 25px;
+    color: white;
+}
+
+nav {
+    background-color: #f6d5df;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #743b50;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.welcome {
+    padding: 45px 20px;
+}
+
+button {
+    background-color: #d76b91;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ad496e;
+}
+
+#flowers {
+    padding: 30px 15px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flower {
+    background-color: white;
+    width: 190px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #e8cbd4;
+}
+
+.about {
+    background-color: #fce1e9;
+    padding: 30px;
+}
+
+footer {
+    background-color: #e8a4b8;
+    color: white;
+    padding: 15px;
+}
